@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header{
+    color: white;
+}
+
+.top{
+    display: flex;
+    background-color: rgb(24, 93, 149);
+    align-items: center;
+}
+
+.top h1{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.BTNS{
+    padding: 1rem;
+    display: flex;
+    background-color: darkorange;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.BTNS button{
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    background-color: darkorange;
+}
+
+.text{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.questionario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(229, 227, 227);
+    border: 1.5px rgb(191, 191, 191) solid;
+    margin: 1rem;
+    font-size: 20px;
+}
+
+.questionario textarea{
+    border-radius: 5px;
+    border: 1.5px rgb(191, 191, 191) solid;
+}
+
+.questionario select{
+    height: 35px;
+    width: 600px;
+    border-radius: 5px;
+    border: 1.5px rgb(191, 191, 191) solid;
+}
+
+.questionario input{
+    height: 35px;
+    width: 600px;
+    border-radius: 5px;
+    border: 1.5px rgb(191, 191, 191) solid;
+}
+
+.questionario button{
+    padding: 0.7rem;
+    background-color: rgb(24, 93, 149);
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.mensagemObrigado{
+    color: green;
+    font-weight: bold;
+}
+
+footer{
+    padding: 2rem;
+    background-color: darkorange;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+}

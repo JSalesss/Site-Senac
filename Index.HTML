@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    
+    <header>
+        <div class="top">
+            <img src="Imagens/SenacLogo1.png" height="100px" alt="Logo">
+            <h1>Fala Senac</h1>
+        </div>
+        <nav>
+            <div class="BTNS">
+                <button>HOME</button>
+                <button>Como você está se sentindo</button>
+                <button>Jornal Senac</button>
+                <button>Sobre</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <div class="text">
+
+                <h2>Participe todos os dias!</h2>
+                <p>Queremos ouvir você.</p>
+
+                <form class="questionario">
+                    <label for="Turma">Turma:</label> <br>
+                    <input type="text" name="Turma" id="Turma" required><br>
+    
+                    <label for="Sentimento">Como você está se sentindo:</label><br>
+                    <select name="sentimento" id="Sentimento" required>
+                        <option value="" selected disabled>Selecione</option>
+                        <option value="Feliz">Feliz</option>
+                        <option value="Triste">Triste</option>
+                        <option value="Ansioso">Ansioso</option>
+                        <option value="Animado">Animado</option>
+                    </select><br>
+    
+                    <label for="Sugestao">Deseja deixar uma sugestão ou desabafo? (opcional)</label><br>
+                    <textarea name="Sugestao" id="Sugestao" cols="80" rows="4"></textarea><br>
+                    <button class="enviar" type="submit">Enviar</button>
+
+                    <p class="mensagemObrigado"></p><br>
+                </form>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div>
+            <p>O senac quer te ouvir!!!</p>
+        </div>
+        <div>
+            <img src="Imagens/SenacLogo1.png" height="100px" alt="Logo">
+        </div>
+    </footer>
+
+    <script src="Index.JS"></script>
+</body>
+</html>
